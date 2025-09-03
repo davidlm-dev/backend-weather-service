@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",             // Versión de JS que generará
+    "module": "ESNext",             // Import/export modernos
+    "moduleResolution": "Node",     // Resolver imports estilo Node
+    "outDir": "dist",               // Carpeta de salida compilada
+    "rootDir": "src",               // Carpeta raíz del TS
+    "strict": true,                 // Activa chequeos estrictos
+    "esModuleInterop": true,        // Para compatibilidad con CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],          // Qué archivos compilar
+  "exclude": ["node_modules", "dist"]
+}
